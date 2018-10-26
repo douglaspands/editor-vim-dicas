@@ -10,10 +10,12 @@ Dicas de uso do editor de textos VIM.
 - l : andar com o cursor para a direita
 - x : apagar para frente (equivalente ao delete) 
 - X : apagar para tras (equivalente ao basckspace) 
+- dw : remove a palavra em que o cursor estiver em cima
 - d^^ : apagar a partir do curso ate o inicio da linha
 - d$ : apagar a partir do cursor até o fim da linha
 - yy | Y : copiar linha 
-- p : colar linha copiada na linha abaixo
+- d : exclui / recorta palavras
+- p : colar linha copiada/recortada na linha abaixo
 - a : começar a digitar na proxima coluna
 - i : começar a editar
 - o : começar a digitar na linha abaixo
@@ -21,6 +23,7 @@ Dicas de uso do editor de textos VIM.
 - esc : cancelar a edição do texto
 - u : volta atras na edição da linha (undo ou desfazer)
 - r : refaz a edição (redo ou refazer)
+- v : entra no modo de selecao. Nesse modo o cursor vai pintando tudo por onde passar, permitindo copiar todo texto
 ## COMANDOS COMPLEXOS
 - Substituir textos
 ```sh
@@ -30,4 +33,4 @@ irá substituir o texto "antigo" pelo texto "novo" na linha do cursor
 ```sh
 :% s/antigo/novo/ 
 ```
-irá substituir o texto "antigo" pelo texto "novo" no arquivo todo
+irá substituir o texto "antigo" pelo texto "novo" em todo o arquivo
