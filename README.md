@@ -18,8 +18,8 @@ Dicas de uso do editor de textos VIM.
 - p : colar linha copiada/recortada na linha abaixo
 - a : começar a digitar na proxima coluna
 - i : começar a editar
-- o : começar a digitar na linha abaixo
-- O : começar a digital na linha acima
+- o : adiciona uma linha abaixo e entra no modo de edição
+- O : adiciona uma linha acima entra no modo de edição
 - esc : cancelar a edição do texto
 - u : volta atras na edição da linha (undo ou desfazer)
 - r : refaz a edição (redo ou refazer)
