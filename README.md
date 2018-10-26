@@ -34,3 +34,8 @@ irá substituir o texto "antigo" pelo texto "novo" na linha do cursor
 :% s/antigo/novo/ 
 ```
 irá substituir o texto "antigo" pelo texto "novo" em todo o arquivo
+- Pesquisar textos
+```sh
+:/texto_pesquisado
+```
+apos executar a pesquisar, o "n" vai para a proxima ocorrencia e o "N" vai para a ocorrencia anterior
