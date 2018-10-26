@@ -19,4 +19,5 @@ Dicas de uso do editor de textos VIM.
 - o : começar a digitar na linha abaixo
 - O : começar a digital na linha acima
 - esc : cancelar a edição do texto
-- esc : o
+- u : volta atras na edição da linha (undo ou desfazer)
+- r : refaz a edição (redo ou refazer)
