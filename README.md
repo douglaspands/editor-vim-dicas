@@ -13,7 +13,7 @@ Dicas de uso do editor de textos VIM.
 - dw : remove a palavra em que o cursor estiver em cima
 - d^^ : apagar a partir do curso ate o inicio da linha
 - d$ : apagar a partir do cursor até o fim da linha
-- yy | Y : copiar linha 
+- y | Y : copiar linha 
 - d : exclui / recorta palavras
 - p : colar linha copiada/recortada na linha abaixo
 - a : começar a digitar na proxima coluna
