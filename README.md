@@ -21,3 +21,13 @@ Dicas de uso do editor de textos VIM.
 - esc : cancelar a edição do texto
 - u : volta atras na edição da linha (undo ou desfazer)
 - r : refaz a edição (redo ou refazer)
+## COMANDOS COMPLEXOS
+- Substituir textos
+```sh
+:s/antigo/novo/ 
+```
+irá substituir o texto "antigo" pelo texto "novo" na linha do cursor
+```sh
+:% s/antigo/novo/ 
+```
+irá substituir o texto "antigo" pelo texto "novo" no arquivo todo
